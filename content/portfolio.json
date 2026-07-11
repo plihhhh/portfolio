@@ -1,0 +1,116 @@
+{
+  "profile": {
+    "photoUrl": "",
+    "name": "Ahmad Kautsar Muflih Muttaqin",
+    "role": "Mahasiswa Teknologi Rekayasa Otomasi - IoT & Web Developer",
+    "tagline": "Mengubah ide sederhana jadi alat pintar, dari sensor sampai dashboard web.",
+    "bio": "Halo, aku Ahmad Muflih - mahasiswa Teknologi Rekayasa Otomasi yang suka menggabungkan dunia IoT dan web development. Aku senang mengubah ide sederhana menjadi alat pintar yang benar-benar berguna: mulai dari merancang hardware berbasis ESP32, membaca sensor, sampai membangun dashboard webnya sendiri.",
+    "email": "ahmadkautsarmuflihm@gmail.com",
+    "github": "https://github.com/plihhhh",
+    "linkedin": "https://www.linkedin.com/in/ahmad-kautsar-muflih-muttaqin-11797a330"
+  },
+  "stats": [
+    {
+      "value": "2+",
+      "label": "Proyek IoT + Web"
+    },
+    {
+      "value": "6+",
+      "label": "Teknologi Dikuasai"
+    },
+    {
+      "value": "1",
+      "label": "Dashboard Web Live"
+    }
+  ],
+  "skills": [
+    {
+      "title": "IoT & Hardware",
+      "tags": [
+        "ESP32",
+        "Arduino",
+        "HX711",
+        "Load Cell",
+        "TFT ST7735",
+        "MQTT"
+      ]
+    },
+    {
+      "title": "Web Development",
+      "tags": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Recharts"
+      ]
+    },
+    {
+      "title": "Tools & Deploy",
+      "tags": [
+        "GitHub",
+        "Vercel",
+        "Supabase",
+        "Wokwi",
+        "Cursor"
+      ]
+    },
+    {
+      "title": "Engineering",
+      "tags": [
+        "MATLAB",
+        "Simulink",
+        "Sistem Kontrol",
+        "PID"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "coverUrl": "",
+      "title": "Timbangan Pintar (ESP32 + Web Dashboard)",
+      "description": "Upgrade timbangan biasa menjadi timbangan pintar yang bisa di-cas ulang dan menyimpan history berat ke cloud lewat ESP32. Data berat dikirim via WiFi/MQTT dan ditampilkan di dashboard web (PWA) yang bisa diakses dari HP kapan saja, bahkan saat timbangan mati.",
+      "status": "Dalam progres",
+      "features": [
+        "Multi-profil pengguna (pilih orang sebelum atau sesudah nimbang)",
+        "Grafik tren berat + filter 7/30 hari + target berat",
+        "Kartu BMI otomatis dengan ambang standar Asia",
+        "Riwayat penimbangan lengkap (lihat, edit, hapus)",
+        "3 tema visual: Bersih, Malam, Hangat",
+        "Hemat daya lewat deep sleep, bangun saat diinjak"
+      ],
+      "tags": [
+        "ESP32",
+        "HX711",
+        "MQTT",
+        "Next.js",
+        "Tailwind",
+        "Recharts"
+      ],
+      "link": ""
+    },
+    {
+      "coverUrl": "",
+      "title": "Love Box (RoboLove) - Pesan Jarak Jauh via ESP32",
+      "description": "Perangkat display mungil berbasis ESP32 dan layar TFT yang menampilkan pesan, jam, dan mood yang dikirim dari web secara real-time lewat MQTT. Dilengkapi web dashboard untuk mengirim pesan, mengganti tema, mengatur brightness, dan melakukan update OTA.",
+      "status": "Dalam progres",
+      "features": [
+        "Kirim pesan real-time dari web ke perangkat lewat MQTT",
+        "Mode jam NTP + tanggal dalam bahasa Indonesia",
+        "Multi-tema visual di layar TFT",
+        "Kontrol brightness & OTA update dari web",
+        "Login, dashboard, dan status device (WiFi, uptime, memori)",
+        "Rencana lanjutan: animasi wajah, mode mood, hemat baterai"
+      ],
+      "tags": [
+        "ESP32",
+        "TFT ST7735",
+        "MQTT",
+        "WiFiManager",
+        "OTA",
+        "Web Dashboard"
+      ],
+      "link": ""
+    }
+  ]
+}
